@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" id="fname" placeholder="Enter your first name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" id="lname" placeholder="Enter your last name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" id="number" placeholder="Enter your number" required>
+          </div>
+         <div class="input-box">
+          <span class="details">Date Of Birth</span>
+          <input type="date" id="date" placeholder="" required>
+        </div>
+        
+        <div class="button">
+          <button type="submit" onclick="store()">Register</button>
+        </div>
+        <div>
+          <a href="display_details.html">Show Details</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
